@@ -1,0 +1,1360 @@
+/**{
+    margin: 0;
+    padding: 0;
+}*/
+@media
+only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min--moz-device-pixel-ratio: 1.5),
+only screen and (min-device-pixel-ratio: 1.5){
+
+  html,
+  body{
+    width:100%;
+    overflow-x:hidden;
+  }
+
+}
+
+
+.slick-prev:before{
+    /*content: "<i class='fa fa-arrow-left'></i>";*/
+    color:#36C5BA;
+}
+.slick-next:before{
+    /*content: "<i class='fa fa-arrow-right'></i>";*/
+    color:#36C5BA;
+}
+
+
+.bintang{
+    margin-top:-100px;
+    /*width:24px;*/
+    /*background-size:cover;*/
+    /*height:24px;*/
+}
+
+.checkbox-materi{
+    width:18px;
+    height:18px;
+}
+/* navbar  */
+
+.txt-awl{
+    /*font-family: 'Muli', sans-serif;*/
+    font-weight: bolder;
+    /*font-size:40px;*/
+}
+.tulisan-banner{
+    background-color:#D5EEED;
+}
+.buat-search{
+    height:50px;
+    border-radius:10px 0px 0px 10px;
+    border:none;
+}
+.btn-search{
+    background-color:#36C5BA;
+    height:50px;
+    border-radius:0 10px 10px 0px;
+    color:white;
+    border:none;
+}
+.banner-wanita{
+    margin-bottom:-100px;
+}
+.jrk-banner{
+    padding-top:100px;
+}
+.btn-daftar{
+    background-color:#CFD1D1;
+    color:#FFFF;
+    width:100px;
+}
+.btn-daftar:hover{
+    background-color:#E1E1E1;
+    color:#FFFF;
+}
+.btn-masuk{
+    background-color:#36C5BA;
+    color:#FFFF;
+    width:100px;
+    /*margin-left:10px;*/
+}
+.btn-masuk:hover{
+    background-color:#4DD0C6;
+    color:#FFFF;
+}
+.btn-keluar{
+    background-color:#FF0000;
+    width:100px;
+    color:#FFFF;
+}
+.btn-keluar:hover{
+    background-color:#FF5858;
+    color:#FFFF;
+}
+/* end nav  */
+
+.bck-color{
+    /*background-image:linear-gradient(#069CD3,#017EAC);*/
+    background-color:#0A3D3F;
+    width:100%;
+    min-height:440px;
+    /* margin-top:-80px; */
+    /* margin-top:100px; */
+}
+.txt-gratis{
+    color:#ffff;
+}
+.bck-color2{
+    /*background-image:linear-gradient(#069CD3,#017EAC);*/
+    background-color:#0A3D3F;
+    width:100%;
+    min-height:440px;
+    /* margin-top:-80px; */
+    /* margin-top:100px; */
+}
+.yuk{
+    padding-top:100px;
+    font-weight:bold;
+    color:#ffff;
+}
+.jgn{
+    /*margin-top:30px;*/
+    color:#ffff;
+    opacity:0.8;
+}
+.tipe{
+    border-radius:50px;
+    /* width:828px; */
+}
+.btn-gratis{
+    border-radius:50px;
+    width:130px;
+    height:40px;
+    color:#1D1D1D;
+    border:1px solid #36C5BA;
+    /*background-color:rgba(23,162,184,.5);*/
+}
+/*.btn-gratis:active{
+    background-color:#36C5BA;
+}*/
+.kot-kat{
+    background: linear-gradient(180deg, #069CD3 0%, #017EAC 100%);
+    box-shadow: 0px 16.5385px 33.0769px rgba(6, 156, 211, 0.08);
+    border-radius: 50px;
+    border:none;
+    width:200px;
+}
+.wrn-caro{
+    color:white;
+}
+.ktk-card{
+    border-radius:0.25rem;
+    border-top:none;
+}
+.pemula{
+    color: rgba(118, 118, 118, 0.8);
+    margin-top:-20px;
+}
+.jenis{
+    /* background: #FDD8D8; */
+    border-radius: 50px;
+    /* color: #F73D3D; */
+    width:100px;
+    height:30px;
+    padding-top:8px;
+}
+.mapel{
+    margin-top:-10px;
+}
+.vet{
+    color: #4A4A4A;
+}
+.ex{
+    color: rgba(118, 118, 118, 0.8);
+}
+
+/* KATEGORI  */
+.matpel{
+    font-weight: bold;
+    color:#333333 !important;
+    margin-top:12px;
+    margin-left:-10px;
+}
+.waktu-buat{
+    font-weight: normal;
+    font-size:15px;
+    color:#767676;
+    margin-left:-10px;
+    margin-top:-12px;
+}
+.people-terbaru{
+    margin-left:-10px;
+    margin-top:-10px;
+}
+.vet-terbaru{
+    color: #4A4A4A;
+    margin-top:-10px;
+    margin-left:-5px;
+}
+.ex-terbaru{
+    color: rgba(118, 118, 118, 0.8);
+    margin-top:-20px;
+    margin-left:-5px;
+}
+.jenis-terbaru{
+    /* background: #FDD8D8; */
+    border-radius: 7px;
+    /* color: #F73D3D; */
+    width:80px;
+    height:30px;
+    margin-top:10px;
+    padding-top:7px;
+    margin-right:10px;
+}
+.txt-jenis{
+    font-style: italic;
+    margin-top:5px;
+    /* background-color:#FDD8D8; */
+    /* color:#F73D3D; */
+}
+.txt-kategori{
+    color:#333333;;
+    font-style: normal;
+    font-weight: bold;
+    font-size:20px;
+}
+.bsr-kotak{
+    /* min-height: 75px; */
+    /* display:table-cell; */
+    height:100%;
+    /* width: 100%; */
+}
+.bsr-kotak2{
+    min-height:200px;
+}
+.jarak-terbaru{
+    margin-top:7px;
+    border-radius:0.25rem;
+}
+.semua-kelas{
+    border-radius: 0.25rem 0.25rem 0rem 0rem;
+}
+
+/* DETAIL KELAS */
+.img-terbaru{
+    width:107px;
+    height:125px;
+    /*height: 100%;*/
+    border-radius:3px;
+}
+.rekomendasi-kelas{
+    margin-top:100px;
+}
+.img-kelas{
+    background-image: url('/img/rekomendasi.png');
+    height: 432px;
+    width: 632px;
+    background-size:cover;
+}
+.txt-rekomendasi{
+    color:#FFFF;
+    font-weight: bolder;
+    padding-top:40px;
+}
+.txt2-rekomendasi{
+    color:#FFFF;
+}
+.btn-lihat{
+    color:#FFFF;
+    width:200px;
+    font-size:18px;
+    background-color:#36C5BA;
+}
+.wanita1{
+    /*width:349px;*/
+    height: 165px;
+    border-radius:20px 20px 0px 0px;
+}
+.card-kelas{
+    border-radius:20px 20px 0px 0px;
+    min-height: 400px;
+    border:0.8px solid #f7f8f8;
+}
+.card-kelas:hover{
+    box-shadow: 5px 30px 120px rgba(14, 9, 31, 0.05);
+}
+.card-kelas-topik{
+    border-radius:10px 10px 0px 0px;
+}
+.card-kelas-topik:hover{
+    box-shadow: 5px 30px 120px rgba(14, 9, 31, 0.05);
+}
+.txt-kelas{
+    padding-top:10px;
+    font-weight:500;
+    font-size:20px;
+}
+.txt-mentor{
+    margin-left:-10px;
+}
+.nama-mentor{
+    font-weight: 600;
+}
+.exp{
+    color:#7E7E7E;
+    margin-top:-5px;
+}
+.hrg-kelas{
+    color:#36C5BA;
+    font-weight: bold;
+    /*font-size:px;*/
+}
+.btn-beli{
+    background-color:#36C5BA;
+    color:#FFFF;
+    border-radius: 10px;
+    /*width:100px;*/
+    margin-left:10px;
+}
+.btn-beli:hover{
+    color:#ffff;
+    background-color:#28a197;
+}
+.btn-lanjut{
+    background-color:#36C5BA;
+    color:#FFFF;
+    border-radius: 10px;
+    margin-bottom:20px;
+    margin-left:10px;
+}
+.btn-beli-disabled{
+    border:1px solid #1d1d1d;
+    color:#1d1d1d;
+    border-radius: 10px;
+    margin-left:10px;
+}
+
+.kategori-baru{
+    color:#FFC523;
+    background-color:#FFFF;
+    margin-top:-30px;
+    margin-right:20px;
+    width:150px;
+    text-align: center;
+    height:40px;
+    border-radius:10px 10px 0 0;
+    padding-top:9px;
+}
+.kategori-baru-populer{
+    color:#FFC523;
+    background-color:#FFFF;
+    margin-top:-30px;
+    margin-left:-30px;
+    width:150px;
+    text-align: center;
+    height:40px;
+    border-radius:10px 10px 0 0;
+    padding-top:9px;
+}
+.rating-baru{
+    margin-top:-25px;
+    margin-left:10px;
+    /*color:#ffff;*/
+}
+.rating-jumlah{
+    color:#1d1d1d;
+    /*display: inline !important;*/
+}
+.rating-tutul{
+    /*color:blue;*/
+    /*color:#D9D9D9;*/
+    /*color:#949494;*/
+    color:#7e7e7e;
+}
+.rating-jumlah-detail-kelas{
+    color:#ffff;
+}
+.rating-total-detail-kelas{
+    color:#f7f8f8;
+}
+.rating-jumlah-detail-kuis{
+    color:#242424;
+    /*margin-top:10px;*/
+}
+.kelas-gratis{
+    /*color:#36C5BA;*/
+    color:#36C555;
+    font-size:20px;
+    font-weight: bold;
+}
+.judul-kelas{
+    color:#ffff;
+    font-weight: bold;
+}
+.tipe-kelas{
+    color:#ffff;
+    font-weight: normal;
+    font-size:20px;
+}
+.tipe-kelas2{
+    font-weight: bold;
+    font-size: 23px;
+    font-style: normal;
+    color:#ffff;
+    line-height:30px;
+}
+.deskripsi-details{
+    color:#1d1d1d;
+    font-size:18px;
+}
+.colp-back{
+    background-color: #F9F9F9;
+    border:1px solid rgba(118, 118, 118, 0.25);
+}
+.colp-back2{
+    background-color: #F9F9F9;
+    border:1px solid rgba(118, 118, 118, 0.25);
+    border-radius:50px;
+    margin-top:10px;
+}
+.wrn-footer-details{
+    background-color:#0A3D3F;
+    height:110px;
+}
+.harga-kelas{
+    color: #ffff;
+    font-size:20px;
+}
+.biaya-kelas{
+    color:#36C5BA;
+    font-weight: bold;
+    font-size:23px;
+}
+.btn-checkout{
+    background: #36C5BA;
+    border:none;
+    /*border: 1px solid rgba(118, 118, 118, 0.25);*/
+    color:white;
+    font-weight:bold;
+    border-radius:5.1px;
+    width:170px;
+    height:40px;
+}
+.btn-checkout:hover{
+    color:#ffff;
+    background-color:#28a197;
+}
+.btn-pending-checkout{
+    background: #36C5BA;
+    border: none;
+    /*border: 1px solid rgba(118, 118, 118, 0.25);*/
+    color:white;
+    font-weight:bold;
+    border-radius:5.1px;
+}
+.btn-pending-checkout:hover{
+    color:#ffff;
+    background-color:#28a197;
+}
+.btn-checkout-gratis{
+    border:none;
+    color:white;
+    font-weight:bold;
+    border-radius:5.1px;
+    height:40px;
+    width:200px;
+    margin-left:100px;
+    margin-top:15px;
+    background-color:#36C5BA;
+}
+.btn-checkout-gratis:hover{
+    color:#ffff;
+    background-color:#28a197;
+}
+.btn-checkout-secondary{
+    font-weight:bold;
+    border-radius:5.1px;
+    height:40px;
+    width:200px;
+    margin-left:100px;
+    margin-top:15px;
+    background-color:#6c757d;
+}
+.btn-checkout-secondary:hover{
+    background-color:#6c757d;
+    cursor: not-allowed;
+}
+.bagikan{
+    color:#ffff;
+}
+/* .btn-checkout:hover{
+    color:#069CD3;
+} */
+.jrk-fot{
+    margin-left:200px;
+}
+
+/*halaman mentor */
+.bck-color-mentor{
+    background-color:#0A3D3F;
+    width:100%;
+    min-height:400px;
+}
+.card-mentor{
+    border-radius:20px 20px 0px 0px;
+    min-height: 445px;
+}
+.card-mentor:hover{
+    box-shadow: 5px 30px 120px rgba(14, 9, 31, 0.05);
+}
+.pic-mentor{
+    height:200px;
+    background-size:cover;
+    border-radius:20px 20px 0px 0px;
+}
+.mentor-deskripsi2{
+    line-height: 35px;
+    color:#7e7e7e;
+}
+.yuk-mentor-show{
+    padding-top:20px;
+    font-weight:bold;
+    color:#ffff;
+    font-size:45px;
+}
+.jgn-mentor{
+    /*margin-top:30px;*/
+    color:#1D1D1D;
+    font-weight: 500;
+    /*opacity:0.8;*/
+}
+.ic_sosmed{
+    /*font-size:400px;*/
+    color:#7e7e7e;
+}
+.ic_sosmed:hover{
+    color:white;
+}
+.mentor-bidang{
+    color:#1d1d1d;
+    margin-top:-5px;
+}
+.yuk-mentor-index{
+    padding-top:100px;
+    font-weight:700;
+    color:#ffff;
+}
+.yuk-mentor-index2{
+    font-weight:600;
+    color:#ffff;
+}
+.jgn-mentor{
+    color:#ffff;
+    opacity:0.8;
+}
+.mentor-deskripsi{
+    /*text-indent: 50px;*/
+    /*text-align: justify;*/
+
+    color:#ffff;
+}
+.mentor-bidang-show{
+    color:#ffff;
+    font-weight:600;
+}
+.mentor-kode-show{
+    color:#ffff;
+    margin-top:-10px;
+    font-weight:600;
+}
+.insta{
+    color:#afbab9;
+    font-size:30px;
+}
+.insta:hover{
+    color:#949c9b;
+}
+/*mentor show */
+
+    /*biodata guru */
+        .bck-color-mentor-show{
+            background-color:#0A3D3F;
+            width:100%;
+            height:300px;
+        }
+        .sec-br-biodata-guru{
+            /*background-color:#0A3D3F;*/
+            /*height:300px;*/
+            /*padding-top:100px;*/
+            margin-top:-200px;
+        }
+        .br-nama-guru{
+            color:white;
+            font-weight: 600;
+        }
+        .br-card-guru{
+            border-radius: 20px;
+            border:none;
+            box-shadow: 5px 30px 120px rgba(14, 9, 31, 0.05);
+            height:350px;
+        }
+        .br-img-guru{
+            width:100px;
+            height:100px;
+            border-radius:100px;
+            background-size: cover;
+            /*border:1px solid black;*/
+        }
+        .br-bio-nama-guru{
+            color:#1d1d1d;
+            font-weight: 500;
+            font-size:25px;
+        }
+        .br-bio-kode-guru{
+            color:rgba(29,29,29,1);
+            font-size:18px;
+            font-weight: normal;
+        }
+        .br-bio-bidang-guru{
+            margin-top:-15px;
+            font-weight: 400;
+            color:rgba(108, 108, 108, 1)
+        }
+        .br-bio-sosmed-guru{
+            margin-top:-5px;
+        }
+        .br-ic-sosmed{
+            color:rgba(74, 74, 74, 1);
+            font-size: 20px;
+            margin-left:5px;
+        }
+        .br-btn-situs{
+            width:200px;
+        }
+        .br-tentang-saya{
+            color:#1d1d1d;
+            font-weight: 600;
+            font-size:20px;
+        }
+        .br-card-deskripsi-guru{
+            border:none;
+            border-radius:20px;
+            box-shadow: 5px 30px 120px rgba(14, 9, 31, 0.05);
+        }
+        .br-deskripsi-guru{
+            line-height: 35px;
+            max-width:500px;
+        }
+    /*end biodata guru*/
+
+    /*kelas,kuis,blog guru */
+        .btn-custom{
+            background-color:#2C7477;
+            width:200px;
+        }
+        .btn-custom:hover{
+            background-color:rgba(31, 107, 111, 1);
+            /*background-color:;*/
+            /*background-color:#022627;*/
+        }
+        .btn-custom.active{
+            background-color: #0A3D3F;
+        }
+        .br-topik-kuis{
+            margin-top:-10px;
+            color:#949494;
+        }
+        .br-author-blog{
+            margin-top:-10px;
+            color:#1c1c1c;
+        }
+        .br-txt-blog{
+            padding-top:10px;
+            /*font-weight:500;*/
+            /*font-size:20px;*/
+        }
+        .br-kategori-blog{
+            color:#646464;
+        }
+        .br-deskripsi-blog{
+            color:#6A6A6A;
+            line-height:20px;
+        }
+        .br-tgl{
+            color:#7E7E7E;
+        }
+    /*end kelas,kuis,blog,guru */
+
+/*end mentor show */
+
+/*contact-us */
+.contact-us{
+    margin-top:50px;
+}
+.yuk-contact-index{
+    padding-top:130px;
+    font-weight:bold;
+    color:#ffff;
+}
+.jgn-contact{
+    color:#ffff;
+    opacity:0.8;
+}
+
+/*blog */
+.scroll-able::-webkit-scrollbar{
+    width:2px;
+    height:5px;
+}
+.scroll-able::-webkit-scrollbar-thumb{
+    /*background: #36C5BA;*/
+    /*background-color:#36C5BA;*/
+    /*background: #5b5c5c;*/
+    background:#d1d1d1;
+    /*width:10px;*/
+    border-radius: 5px;
+}
+.scroll-able::-webkit-scrollbar-track{
+    /*background:#808080;*/
+    /*background: #3de0d4;*/
+    /*background: #878787;*/
+    background:#ffff;
+    /*border-radius:5px;*/
+}
+.scroll-able::-webkit-scrollbar-thumb:hover {
+    /*background: #3b3b3b;*/
+    /*background: #1f9c92;*/
+    background: #424242;
+    /*background:blue;*/
+    width:10px;
+    cursor: pointer;
+}
+.bookmark-kosong{
+    color:#7e7e7e;
+    cursor: pointer;
+}
+.bookmark-kosong:hover{
+    color:#e30000;
+    cursor: pointer;
+}
+.bookmark-merah{
+    color:#e30000;
+    cursor: pointer;
+}
+.bookmark-merah:hover{
+    color:#7e7e7e;
+    cursor: pointer;
+}
+.card-blog{
+    min-height:450px;
+    /*border:1px solid black;*/
+    border-radius:20px 20px 0px 0px;
+}
+.card-blog:hover{
+    box-shadow: 5px 30px 120px rgba(14, 9, 31, 0.05);
+}
+.gmbr-blog{
+    height: 150px;
+    border-radius:20px 20px 0px 0px;
+}
+/*blog baru */
+.br-banner-blog{
+    border-radius:20px;
+    margin-top:30px;
+    /*width:100%;*/
+    height:200px;
+    background-size: cover;
+}
+.br-isi-blog{
+    border-radius:20px;
+    background-color:#ffff;
+    box-shadow: 5px 30px 120px rgba(14, 9, 31, 0.05);
+    min-height: fit-content;
+    border:none;
+}
+.br-blog{
+    margin-top:-100px;
+}
+.br-blog-kategori{
+    /*font-size: 22px;*/
+    font-style: normal;
+    /*font-weight: 400;*/
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:rgba(108, 108, 108, 1);
+    margin-top:20px;
+    margin-bottom:-5px;
+}
+.br-blog-title{
+    color:rgba(29, 29, 29, 1);
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 35px;
+    letter-spacing: 0em;
+}
+.br-blog-subtitle{
+    color:rgba(64, 64, 64, 1);
+    /*font-family: Poppins;*/
+    /*font-size: 22px;*/
+    font-style: normal;
+    /*font-weight: 400;*/
+    line-height: 35px;
+    letter-spacing: 0em;
+    margin-top:-10px;
+}
+.br-blog-isi{
+    color:rgba(89, 89, 89, 1);
+    font-size:20px;
+    line-height:10px;
+}
+.br-blog-pic-guru{
+    width:60px;
+    height:60px;
+    border-radius:100px;
+    background-size:cover;
+}
+.br-blog-nama{
+    color: rgba(29, 29, 29, 1);
+    /*font-family: Poppins;*/
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0em;
+}
+.br-blog-bidang{
+    color: rgba(126, 126, 126, 1);
+    /*font-family: Poppins;*/
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 35px;
+    letter-spacing: 0em;
+    margin-top:-15px;
+}
+.br-blog-mentor-deskripsi{
+    margin-top:-10px;
+    color:rgba(122, 122, 122, 1);
+    /*font-size: px;*/
+    font-style: normal;
+    font-weight: 200;
+    line-height:20px;
+    letter-spacing: 0em;
+}
+.br-card-kategori{
+    border-radius:20px;
+    background-color:#ffff;
+    box-shadow: 5px 30px 120px rgba(14, 9, 31, 0.05);
+    /*min-height: fit-content;*/
+    border:none;
+}
+.br-blog-lihat-blog{
+    margin-top:30px;
+    margin-bottom:30px;
+}
+.br-blog-title-kategori{
+    font-size:16px;
+    color:rgba(29, 29, 29, 1);
+    /*font-family: Poppins;*/
+    /*font-size: 30px;*/
+    font-style: normal;
+    font-weight: 300;
+    /*line-height: 10px;*/
+    letter-spacing: 0em;
+    /*text-align: left;*/
+}
+.br-blog-create-kategori{
+    font-size:12px;
+    /*font-family: Poppins;*/
+    /*font-size: 18px;*/
+    font-style: normal;
+    /*font-weight: 400;*/
+    line-height: 20px;
+    letter-spacing: 0em;
+    color:rgba(108, 108, 108, 1);
+}
+.br-blog-pic-guru-kategori{
+    width:80px;
+    height:80px;
+    border-radius:5px;
+}
+.br-blog-mentor-deskripsi-kategori{
+    font-size:16px;
+    color:rgba(172, 172, 172, 1);
+    /*font-family: Poppins;*/
+    /*font-size: 16px;*/
+    font-style: normal;
+    font-weight: 200;
+    line-height: 20px;
+    letter-spacing: 0em;
+    margin-top:-10px;
+}
+.br-blog-kategori-lihat{
+    color:rgba(29, 29, 29, 1);
+    /*font-family: Poppins;*/
+    /*font-size: 30px;*/
+    font-style: normal;
+    font-weight: 600;
+    line-height: 10px;
+    letter-spacing: 0em;
+    /*text-align: left;*/
+}
+.br-blog-kategori-lain{
+    color:rgba(144, 144, 144, 1);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 10px;
+    letter-spacing: 0em;
+    /*text-align: left;*/
+}
+.br-blog-lain{
+    margin-top:50px;
+}
+.br-blog-txt-lain{
+    color:rgba(29, 29, 29, 1);
+    /*font-family: Poppins;*/
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 60px;
+    letter-spacing: 0em;
+    /*text-align: left;*/
+}
+/*end blog baru */
+
+/*kuis */
+.card-kuis{
+    min-height: 400px;
+    border-radius:20px 20px 0px 0px;
+}
+.card-kuis:hover{
+    box-shadow: 5px 30px 120px rgba(14, 9, 31, 0.05);
+}
+.gmbr-kuis{
+    height: 150px;
+    border-radius:20px 20px 0px 0px;
+}
+    /*show-kuis-baru*/
+        .br-kuis-title-kuis{
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 35px;
+            letter-spacing: 0em;
+            /*text-align: left;*/
+            color:#ffff;
+            margin-top:100px;
+            margin-bottom:-200px;
+        }
+        .br-kuis-detail-kuis{
+            margin-top:-100px;
+        }
+        .br-kuis-nama-kuis{
+            /*font-family: Poppins;*/
+            font-size: 25px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 35px;
+            letter-spacing: 0em;
+            color:rgba(29, 29, 29, 1);
+            /*text-align: left;*/
+        }
+        .br-kuis-by{
+            /*font-family: Poppins;*/
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 35px;
+            letter-spacing: 0em;
+            float: right;
+            color:rgba(100, 100, 100, 1);
+        }
+        .br-kuis-show-mentor{
+            color:rgba(100, 100, 100, 1);
+            text-decoration: underline;
+            font-size:16px;
+        }
+        .br-kuis-kategori-kuis{
+            color:rgba(108, 108, 108, 1);
+            /*font-family: Poppins;*/
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 20px;
+            letter-spacing: 0em;
+            margin-top:-5px;
+            /*text-align: left;*/
+        }
+        .br-kuis-deskripsi-kuis{
+            color:rgba(195, 195, 195, 1);
+            /*font-family: Poppins;*/
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 30px;
+            letter-spacing: 0em;
+            /*text-align: left;*/
+        }
+        .btn-mulai-kuis{
+            width:200px;
+            /*margin-left:300px;*/
+        }
+        .br-kuis-card-kuis{
+            border:none;
+            /*min-height:400px;*/
+            border-radius:20px;
+            box-shadow: 5px 30px 120px rgba(14, 9, 31, 0.05);
+            background-color:#ffff;
+        }
+
+    /* leaderboard */
+        .br-kuis-leaderboard-kuis{
+            border-radius:20px;
+            background-color:#ffff;
+            box-shadow: 5px 30px 120px rgba(14, 9, 31, 0.05);
+            border:none;
+        }
+        .br-kuis-leaderboard-text{
+            color:rgba(29, 29, 29, 1);
+            /*font-family: Poppins;*/
+            font-size: 22px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 35px;
+            letter-spacing: 0em;
+            /*text-align: left;*/
+        }
+        .br-kuis-piala{
+            width:30px;
+            height:30px;
+        }
+        .br-kuis-urutan-leaderboard{
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 20px;
+            letter-spacing: 0em;
+            color:rgba(29, 29, 29, 1);
+        }
+        .br-kuis-urutan-leaderboard-saya{
+
+        }
+        .br-kuis-nama-leaderboard{
+            /*font-family: Poppins;*/
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 20px;
+            letter-spacing: 0em;
+            color:rgba(29, 29, 29, 1);
+            /*text-align: left;*/
+        }
+        .br-kuis-waktu-leaderboard{
+            /*color:rgba(29, 29, 29, 1);*/
+            /*font-family: Poppins;*/
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 20px;
+            letter-spacing: 0em;
+            /*text-align: left;*/
+        }
+        .br-kuis-score-leaderboard{
+            color:rgba(29, 29, 29, 1);
+            /*font-family: Poppins;*/
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 20px;
+            letter-spacing: 0em;
+        }
+        .br-kuis-urutan-leaderboard-user{
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 20px;
+            letter-spacing: 0em;
+            border:none;
+            border-radius:5px 0px 0px 5px;
+        }
+        .br-kuis-nama-leaderboard-user{
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 20px;
+            letter-spacing: 0em;
+            border:none;
+        }
+        .br-kuis-waktu-leaderboard-user{
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 20px;
+            letter-spacing: 0em;
+            border:none;
+        }
+        .br-kuis-score-leaderboard-user{
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 20px;
+            letter-spacing: 0em;
+            border:none;
+            border-radius:0px 5px 5px 0px;
+        }
+        .br-kuis-score-user{
+            background-color:rgba(10, 61, 63, 1);
+            font-size: 16px;
+            color:#ffff !important;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 20px;
+            letter-spacing: 0em;
+            /*width:100px;*/
+            /*height:100px;*/
+            /*border-radius:5px;*/
+            /*border:none;*/
+        }
+        .br-kuis-play-kuis{
+            border-radius: 5px 5px 5px 5px;
+        }
+        .br-kuis-show-all{
+            color:rgba(10, 61, 63, 1);
+            /*font-family: Poppins;*/
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: 20px;
+            letter-spacing: 0em;
+            text-decoration: underline;
+            /*cursor: pointer;*/
+            /*text-align: left;*/
+        }
+    /* end leaderboard */
+
+    .br-kuis-lain-lihat-kategori{
+        font-size:24px;
+        font-weight: 400;
+        color:#1d1d1d;
+    }
+    .br-kuis-lain-lihat{
+        font-size:24px;
+        font-weight: 400;
+        color:#1d1d1d;
+    }
+
+    /*end show-kuis-baru */
+/*end kuis */
+
+
+
+/*footer*/
+.foot{
+    background-color:#0A3D3F;
+    min-height: 400px;
+    margin-top:100px;
+}
+.foot-ul{
+    list-style: none;
+}
+.foot-awal{
+    color:#FFFF;
+    font-weight:bold;
+    font-size: 20px;
+}
+.txt-foot{
+    color:#FFFF;
+    opacity:75%;
+    padding-top:20px;
+}
+.jrk-txt-foot{
+    margin-top:20px;
+}
+.jrk-foot{
+    padding-top:40px;
+}
+/*end footer */
+
+
+/* responsive  */
+@media only screen and (max-width: 320px){
+    .btn-gratis-sm{
+        margin-top:10px;
+        margin-bottom:30px;
+    }
+    .img-terbaru{
+        min-width:100%;
+    }
+    .kategori-baru-populer{
+        margin-top:-50px;
+    }
+}
+
+@media only screen and (max-width: 600px) and (min-width:320px) {
+    .btn-gratis{
+        margin-bottom:50px;
+    }
+    .btn-beli{
+        margin-top:5px;
+        margin-left:-2px;
+        margin-bottom:10px;
+    }
+    .matpel{
+        margin-left:10px;
+    }
+    .waktu-buat{
+        margin-left:10px;
+    }
+    .vet-terbaru{
+        margin-left:7px;
+    }
+    .ex-terbaru{
+        margin-left:7px;
+    }
+    .people-terbaru{
+        margin-left:10px;
+    }
+    .jarak-terbaru{
+        margin-top:-7px;
+        border-radius:0.25rem 0.25rem 0rem 0rem;
+    }
+    .jrk-fot{
+        margin-left:-180px;
+        margin-top:80px;
+    }
+    .wrn-footer-details{
+        height:200px;
+    }
+    .btn-checkout-gratis{
+        margin-left:100px;
+    }
+    .jrk-kon{
+        margin-top:10px;
+    }
+    .jrk-video-kecil{
+        margin-top:200px;
+    }
+    .img-terbaru{
+        min-width:100%;
+    }
+    .kategori-baru-populer{
+        margin-top:-60px;
+    }
+}
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .matpel{
+        margin-left:10px;
+    }
+    .waktu-buat{
+        margin-left:10px;
+    }
+    .vet-terbaru{
+        margin-left:7px;
+    }
+    .ex-terbaru{
+        margin-left:7px;
+    }
+    .people-terbaru{
+        margin-left:10px;
+    }
+    .jarak-terbaru{
+        margin-top:-7px;
+        border-radius:0.25rem 0.25rem 0rem 0rem;
+    }
+    .jrk-fot{
+        margin-left:-100px;
+    }
+    .btn-checkout{
+        margin-left:-30px;
+    }
+    .btn-checkout-gratis{
+        margin-left:1px;
+    }
+    .jrk-video-kecil{
+        margin-top:100px;
+    }
+    .img-terbaru{
+        min-width:100%;
+    }
+    .kategori-baru-populer{
+        margin-top:-35px;
+        margin-left:140px;
+    }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .matpel{
+        margin-left:10px;
+    }
+    .waktu-buat{
+        margin-left:10px;
+    }
+    .vet-terbaru{
+        margin-left:7px;
+    }
+    .ex-terbaru{
+        margin-left:7px;
+    }
+    .people-terbaru{
+        margin-left:10px;
+    }
+    .jarak-terbaru{
+        margin-top:-7px;
+        border-radius:0.25rem 0.25rem 0rem 0rem;
+    }
+    .jrk-fot{
+        margin-left:-5px;
+    }
+    .btn-checkout-gratis{
+        margin-left:100px;
+    }
+    .img-terbaru{
+        min-width: 100%;
+        /*min-width:300px;*/
+    }
+    .kategori-baru-populer{
+        margin-top:-40px;
+        margin-left:165px;
+    }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .matpel{
+        margin-left:10px;
+    }
+    .waktu-buat{
+        margin-left:10px;
+    }
+    .vet-terbaru{
+        margin-left:7px;
+    }
+    .ex-terbaru{
+        margin-left:7px;
+    }
+    .people-terbaru{
+        margin-left:10px;
+    }
+    .jrk-fot{
+        margin-left:-5px;
+    }
+    .kategori-baru-populer{
+        margin-left:1px;
+        /*margin-right:px;*/
+    }
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    /*.kategori-baru{
+        margin-left:-300px;
+    }*/
+}

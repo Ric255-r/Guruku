@@ -1,0 +1,49 @@
+koding login
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Login Form</h1>
+    <form action="{{url('post-login')}}" method="post" id="logForm">
+        @csrf
+        <label for="username">Username</label>
+        <input type="text" name="username" id="username"> <br>
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password"> <br>
+        <button type="submit">Login</button>
+    </form>
+</body>
+</html>
+
+
+koding register
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="csrf-token" content="{{ csrf_token() }}">
+    <title>Form Registrasi</title>
+</head>
+<body>
+    <h1>Form Registrasi</h1>
+    <form action="{{url('post-registration')}}" method="post" id="regForm">
+        @csrf
+        <label for="username">Username</label>
+        <input type="text" name="username" id="username"> <br>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email"> <br>
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password"> <br>
+        <button type="submit">Registrasi</button>
+    </form>
+    <a href="{{url('login')}}">Sign In</a>
+</body>
+</html>

@@ -1,0 +1,82 @@
+/* navbar  */
+/* .whi{
+    background-color:white;
+    opacity:0.8;
+}
+.war{
+    background-color:#009EF0;
+} */
+/* search  */
+.jar{
+    margin-top:50px;
+}
+.jar2{
+    margin-top:30px;
+}
+/* kotak guru  */
+.lih{
+    color:grey;
+    cursor: pointer;
+}
+.rek{
+    font-family:'Dk Honeyguide Caps';
+    color:#069DC3;
+    font-size:30px;
+}
+.rem{
+    width:18rem;
+}
+.ve{
+    font-size:15px;
+    /* color:grey; */
+    font-family:roboto;
+    margin-top:25px;
+}
+.men{
+    font-size:15px;
+    margin-top:-17px;
+    color:grey;
+}
+.bin{
+    margin-left:-50px;
+}
+.pes{
+    margin-left:70px;
+    width:100px;
+}
+.thumb{
+    border:2px solid #ddd;
+    border-radius:4px;
+    padding:10px;
+    cursor:pointer;
+}
+.thumb:hover{
+    box-shadow:3px 3px 2px 1px lightgrey;
+}
+.img{
+    /* background-image:url('/img/teach1.jpg'); */
+    /* width:250px; */
+    height:200px;
+    background-size:cover;
+    border:2px solid #ddd;
+    border-radius:100px 0px 0px 700px;
+    padding:5px;
+    transition:.5s ease;
+    backface-visibility:hidden;
+}
+.img:hover{
+    opacity:0.3;
+}
+.mat{
+    font-size:20px;
+    font-family:roboto;
+    font-weight:semibold;
+}
+.pem{
+    font-size:15px;
+    color:grey;
+    margin-top:-10px;
+}
+.kotgur{
+    margin-top:30px;
+}

@@ -1,0 +1,126 @@
+.check{
+    color:white;
+    font-size:50px;
+    font-weight:bold;
+    /*font-family: 'playfair display';*/
+    margin-top:90px;
+}
+.btn-bayar{
+    background-color: #36C5BA;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.btn-bayar:hover{
+    color:#ffff;
+    background-color:#28a197;
+}
+.kelas{
+    color:white;
+    font-size:40px;
+    font-weight:bold;
+    /*font-family: 'playfair display';*/
+}
+.kotak{
+    background-color:white;
+    border:1px solid lightgrey;
+    margin-top:-80px;
+    border-radius:10px;
+    height: fit-content;
+    max-width: 700px;
+}
+.kotak2{
+    background-color:white;
+    border:1px solid lightgrey;
+    margin-top:-80px;
+    border-radius:10px;
+    /* max-height: fit-content; */
+    height: max-content;
+    width: max-content;
+    /* height:210px; */
+    margin-left:20px;
+}
+.gambar{
+    margin-top:10px;
+    border-radius:7px;
+}
+.abu{
+    background-color:#E5E8F2;
+    width:200px;
+    height:120px;
+    border-radius:7px;
+}
+.kelas2{
+    color:black;
+    font-size:20px;
+    font-weight: medium;
+    font-family: 'roboto';
+    margin-left:-20px;
+}
+.mentor{
+    color:lightgrey;
+    font-size:20px;
+    font-weight: medium;
+    font-family: 'roboto';
+    margin-left:-20px;
+    margin-top:-15px;
+}
+.jenis{
+    margin-left:-20px;
+    height:30px;
+    width:100px;
+    font-size:16px;
+    padding-top:10px;
+    /*margin-top:-30px;*/
+    font-style: italic;
+}
+/*.txt-jenis{
+    margin-left:-20px;
+    color:#1d1d1d;
+    font-size:20px;
+    font-style: normal;
+}*/
+.akses{
+    color:black;
+    font-family: 'roboto';
+    font-size:20px;
+}
+.input{
+    height:50px;
+}
+.nama{
+    color:lightgrey;
+    font-size:17px;
+    margin-top:10px;
+    font-family: 'roboto';
+    font-weight:medium;
+}
+.informasi{
+    list-style:none;
+}
+.kanan{
+    float:right;
+    font-weight:bold;
+}
+.jrk-google{
+    margin-top:100px;
+}
+/* footer  */
+
+.lis{
+    list-style:none;
+}
+.fot{
+    background-color:#4F4F4F;
+    width:100%;
+    height:330px;
+    margin-top:120px;
+    color:white;
+}
+.in{
+    padding-top:30px;
+    font-weight:bold;
+}
+.ten{
+    padding-top:15px;
+}
+

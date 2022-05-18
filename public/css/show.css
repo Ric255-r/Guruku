@@ -1,0 +1,83 @@
+.gugu{
+    background-image:url('/img/gur1.png');
+    height:200px;
+    /* margin-top:56px; */
+}
+.ket{
+    font-family: 'DK Honeyguide Caps';
+    font-size:30px;
+    margin-top:20px;
+    margin-left:30px;
+    color:white;
+    letter-spacing:3px;
+}
+.mentor{
+    font-size:18px;
+    color:white;
+    margin-left:30px;
+}
+.ten{
+    /* background-color:#2AC8D1; */
+    /* opacity:0.7; */
+}
+.peo{
+    width:40px;
+    height:40px;
+}
+.ang2{
+    margin-top:-20px;
+}
+.ang{
+    font-size:15px;
+}
+.desk{
+    font-weight:bold;
+    font-size:20px;
+}
+.nana{
+    background-color:#E0FCFF;
+    /* opacity:0.9; */
+}
+.nam{
+    font-weight:bold;
+}
+.des{
+    color:#9E9E9E;
+}
+
+/* footer  */
+.lis{
+    list-style:none;
+}
+.fot{
+    background-color:#4F4F4F;
+    width:100%;
+    height:400px;
+    margin-top:50px;
+    color:white;
+}
+.in{
+    padding-top:30px;
+    font-weight:bold;
+}
+.tenjar{
+    padding-top:15px;
+}
+
+
+/* bagian kotak  */
+.card-kelas{
+    position: fixed;
+}
+.card-title{
+    color:#00FF00;
+    font-weight:bold;
+    font-size:30px;
+    font-style: italic;
+}
+.card-title-pre{
+    color:red;
+    font-weight:bold;
+    font-size:30px;
+    font-style:italic;
+}

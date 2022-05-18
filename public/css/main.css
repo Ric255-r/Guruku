@@ -1,0 +1,17 @@
+.navbar-light .navbar-nav .nav-link{
+    color:white;
+}
+.navbar-light .navbar-nav
+.nav-link:hover{
+    color:#E2E0DD;
+}
+.btn-mulai{
+    background-color:#FCAA23;
+    border-radius:6px;
+    color:white;
+    width:200px;
+}
+.btn-mulai:hover{
+    background-color:#C38C30;
+    color:white;
+}

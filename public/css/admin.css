@@ -1,0 +1,11 @@
+.warna-navbar{
+    background-color:#0089F0;
+    border:none;
+}
+.navbar-light .navbar-nav .nav-link{
+    color:white;
+}
+.navbar-light .navbar-nav
+.nav-link:hover{
+    color:#E2E0DD;
+}
